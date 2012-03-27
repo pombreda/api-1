@@ -53,12 +53,12 @@ Groups
 Groups endpoint of the canv.as public api
 
 Request with an id parameter:
-/public_api/funny
+/public_api/groups/funny
 
 POST JSON in the following format:
 {"ids":["funny","canvas"]}
 
 Group posts will be returned in pages, ordered newest to oldest. You can request posts beyond the initial range by POSTing JSON in the following format:
 
-/public_api/users/
+/public_api/groups/
 {"ids":[{"group":"funny","skip":100},"canvas"}
